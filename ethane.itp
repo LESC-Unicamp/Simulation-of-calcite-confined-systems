@@ -1,0 +1,9 @@
+[ moleculetype ]
+ETH	2	
+
+[ atoms ]
+1      CH3       1     ETH       CH3       1	 0.000  15.0347
+2      CH3       1     ETH       CH3       1	 0.000  15.0347
+   
+[ constraints ]
+1	2	1  	0.154

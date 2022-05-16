@@ -1,0 +1,5 @@
+[ molecule_type ]
+CH4    1
+
+[ atoms ]
+   1     CH4    1   CH4    CH4   1   0.0000    16.0427

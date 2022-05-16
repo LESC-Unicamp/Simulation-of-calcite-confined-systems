@@ -1,0 +1,15 @@
+#include "ff.itp"
+#include "calcium.itp"
+#include "carbonate.itp"
+#include "methane.itp"
+#include "ethane.itp"
+
+ [ system ]
+Calcite_methane_ethane_35A_equimolar
+
+ [ molecules ]
+Ca        480
+CO3       480
+CH4       277
+ETH       277
+

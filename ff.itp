@@ -1,0 +1,34 @@
+; n-Alkanes, Martin and Siepmann J. Phys. Chem. B, v. 102 pp. 2569-2577 (1998)
+; Calcium carbonate, Xiao et al. J. Phys. Chem. C, v. 115 pp. 20067-20075 (2011)
+; CO2, Potoff and Siepmann AIChE. J, v. 47 pp. 1676-1682 (2001) 
+[ defaults ]
+1 1 no  
+
+[ atomtypes ]
+CH4 CH4   16.0427  0.000 A      1.33E-02	3.57E-05
+CH3 CH3   15.0347  0.000 A	9.06E-03	2.52E-05
+Ca   Ca   40.0780  1.668 A 	1.42E-03	2.52E-07
+CO   CO   12.0107  0.999 A	4.61E-03	1.44E-05
+OC   OC   15.9994 -0.889 A	2.03E-03	1.77E-06
+CCO2 CCO2 12.0107  0.700 A      4.33E-04        2.09E-07
+OCO2 OCO2 15.9994 -0.350 A      2.11E-03        1.70E-06
+MCO  MCO   0.0000  0.000 A      0.00E+00     	0.00E+00
+
+[ nonbond_params ]
+CH4 CH4   1     1.33E-02	3.57E-05
+CH3 CH3   1	9.06E-03	2.52E-05
+CH4 CH3   1	1.10E-02 	3.00E-05
+Ca   Ca   1	1.42E-03	2.52E-07
+CO   CO   1	1.43E-02	4.61E-06
+OC   OC   1	5.21E-05	5.94E-07
+Ca   OC   1	0.00E+00	9.49E-07
+CO   CO   1	1.43E-02	4.61E-06
+CO   OC   1	3.08E-04	9.04E-10
+CCO2 CCO2 1     4.33E-04        2.09E-07
+OCO2 OCO2 1     2.12E-03        1.70E-06
+MCO  MCO  1     0.00E+00        0.00E+00
+CCO2 CH4  1     2.55E-03        3.09E-06
+CCO2 CH3  1     2.11E-03        2.60E-06
+CCO2 OCO2 1     9.62E-04        6.02E-07
+OCO2 CH4  1     5.46E-03        8.28E-06
+OCO2 CH3  1     4.52E-03        6.98E-06
