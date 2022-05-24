@@ -45,6 +45,7 @@ Luís F. M. Franco<br></p>
 This repository is constituted of the input files to run a Molecular Dynamics Simulation with GROMACS for a slit pore.
 Within the pore an equimolar mixture of Methane (CH<sub>4</sub>) and Ethane (C<sub>2</sub>H<sub>4</sub>) is confined by two calcite walls. The calcite plane confidered was {1014} orthogonal to the z direction.
 In this work, x and y are called the parallel directions and z is the perpenticular direction, since the wall of the system is in the z axis.
+  
    <em><p align="center">
   <b>Figure 01</b>. Example of slit pore of calcite containing methane and ethane.
   Click [here](https://user-images.githubusercontent.com/98060271/150574991-7e6f68b7-26fe-45f1-bae2-3cfec67c4ef3.png) to zoom the figure in.
@@ -60,7 +61,7 @@ In this work, x and y are called the parallel directions and z is the perpenticu
 
 ## Disclaimer
 <p align="justify">
-The authors make no warranties about the use of this software. The authors hold no liabilities for the use of this software. The authors do not recommend the use of this software whatsoever.The algorithm is made freely available to clarify any details discussed in the paper. All information contained herein regarding any specific methodology does not constitute or imply its endorsement or recommendation by the authors.
+The authors make no warranties about the use of this software. The authors hold no liabilities for the use of this software. The authors do not recommend the use of this software whatsoever. The algorithm is made freely available to clarify any details discussed in the paper. All information contained herein regarding any specific methodology does not constitute or imply its endorsement or recommendation by the authors.
 </p>
 
 ## Input files
@@ -70,13 +71,14 @@ The program used for MD simulations was GROMACS (5.0.2).
 GROMACS input files can be divided in three categories: configuration (.gro), force field (.ff and .itp), and simulation setups (.mdp).
 </p>
 </p>
-The calcite force field implementation can be find in the calcium.itp, carbonate.itp and calcite.gro.
+The calcite force field implementation can be found in the calcium.itp, carbonate.itp and calcite.gro.
 CH<sub>4</sub> and C<sub>2</sub>H<sub>4</sub> are respectively in files methane.itp and ethane.itp. The .gro of the complete system named as calcite_met_eth_35A.gro.
 
 The interactions between particle types are present in the ff.itp file. For further information, the reader may refer to the original papers for the Hydrocarbons <a href="https://doi.org/10.1021/jp972543+">(Martin and Siepmann, 1998)</a> and Calcite <a href="https://doi.org/10.1021/jp202743v">(Xiao et al. 2011)</a>.
 </p>
 
 ## Running the simulations
+<p align="justify">
 
 To run the simulations as described in the following command lines the user must have all GROMACS input files present in this repository in the current diretory where the commands will be issued.
 
